@@ -6,6 +6,7 @@ Possible Options for PA9
 - Frogger
 - Top Down Endless Survival
 - Music Visualizer
+- Uno
 
 For Pacman
 - Inheritance and Polymorphism will probably be something like collision detectors for both ghosts and the player
