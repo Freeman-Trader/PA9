@@ -20,7 +20,7 @@ int main()
 	if(!defaultFont.loadFromFile("arial.ttf"))
 		{return -1;}
 	sf::Text titleName("PACMAN", defaultFont, 50);*/
-	
+
 
 	//Pacman Object
 	sf::CircleShape shape;
@@ -40,24 +40,21 @@ int main()
 				Window.close();
 		}
 
-		if(event.type == sf::Event::KeyPressed)
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up) || sf::Keyboard::isKeyPressed(sf::Keyboard::W))
 		{
-			if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up) || sf::Keyboard::isKeyPressed(sf::Keyboard::W))
-			{
-				direction = 1;
-			}
-			else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right) || sf::Keyboard::isKeyPressed(sf::Keyboard::D))
-			{
-				direction = 2;
-			}
-			else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down) || sf::Keyboard::isKeyPressed(sf::Keyboard::S))
-			{
-				direction = 3;
-			}
-			else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left) || sf::Keyboard::isKeyPressed(sf::Keyboard::A))
-			{
-				direction = 4;
-			}
+			direction = 1;
+		}
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right) || sf::Keyboard::isKeyPressed(sf::Keyboard::D))
+		{
+			direction = 2;
+		}
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down) || sf::Keyboard::isKeyPressed(sf::Keyboard::S))
+		{
+			direction = 3;
+		}
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left) || sf::Keyboard::isKeyPressed(sf::Keyboard::A))
+		{
+			direction = 4;
 		}
 
 		switch (direction)
