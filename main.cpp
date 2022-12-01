@@ -13,7 +13,7 @@ int main()
 	//Window
 	sf::VideoMode defaultVM(WINDOWS_WIDTH, WINDOWS_HEIGHT);
 	sf::RenderWindow Window(defaultVM, "Pac-Man", sf::Style::Default);
-
+	
 
 	//Title - Currently needs a font .ttf file to work with
 	/*sf::Font defaultFont;
