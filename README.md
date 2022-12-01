@@ -1,25 +1,19 @@
 # PA9
 Final PA for CptSci 122
 
-Possible Options for PA9
-- Pacman 
-- Frogger
-- Top Down Endless Survival
-- Music Visualizer
-- Uno
+Final Idea
+- Zombies Vs Plants
 
-For Pacman
-- Inheritance and Polymorphism will probably be something like collision detectors for both ghosts and the player
+What Needs to Be Done
+- Board - Placement + Collison
+- Plant - Inherits from a Plant Class
+    - Bullet Object
 
-For Frogger 
-- Inheritance and Polymorphism will probably be something like different collison dectors/speed for cars
 
-For TDES
-- Inheritance and Polymorphism will probably be something like different weapons or enenmies
-
-For Music Visualizer
-- Inheritance and Polymorphism will probably be something like different pitches being faster
-
+- Zombie - Inheirts from a Zombie Class
+- Movement
+- Points/Waves
+- Images
 
 Grading Requirements
 *       25 pts – Appropriate design, style, and commenting according to class standards
